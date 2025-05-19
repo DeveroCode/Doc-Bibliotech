@@ -67,7 +67,7 @@ public function index()
 
             <hr className="border-gray-600 mt-10" />
 
-            <NextPage url="start" title="Creación de libros" />
+            <NextPage url="start/libros/CRUD/crear" title="Creación de libros" />
         </div>
     )
 }
