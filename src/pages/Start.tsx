@@ -1,5 +1,6 @@
 import CardInformation from "../Components/Cards/CardInformation";
 import CardTerminal from "../Components/Cards/CardTerminal";
+import NextPage from "../Components/NextPage";
 
 export default function Start() {
   return (
@@ -79,6 +80,12 @@ export default function Start() {
           APP_URL=http://localhost <span className="text-gray-400"># URL base de la app en tu entorno local</span>
         </CardTerminal>
       </main>
+
+      <hr className="border-gray-600 mt-10" />
+
+      <section className="flex justify-end">
+        <NextPage title="Libros" url="libros" />
+      </section>
     </div>
   );
 }
