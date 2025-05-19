@@ -83,9 +83,7 @@ export default function Start() {
 
       <hr className="border-gray-600 mt-10" />
 
-      <section className="flex justify-end">
-        <NextPage title="Libros" url="libros" />
-      </section>
+      <NextPage title="Libros" url="start/libros" />
     </div>
   );
 }
