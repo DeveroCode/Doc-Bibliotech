@@ -9,7 +9,7 @@ type CardTerminalProps = {
 
 export default function CardTerminal({ children, title = 'bash', copyId }: CardTerminalProps) {
   return (
-    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg w-full max-w-3xl mx-auto font-mono text-sm mt-5">
+    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg w-full max-w-3xl mx-auto font-mono text-sm my-5">
       {/* Top Bar */}
       <div className="flex items-center justify-between px-4 py-1 bg-gray-800">
         <div className="flex gap-2">
